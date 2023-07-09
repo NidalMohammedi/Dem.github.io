@@ -1,0 +1,22 @@
+td, th, button, .row-header {
+        font-weight: initial;
+      }
+      thead, tbody {
+        text-align: center;
+      }
+      .t-white, button {
+        vertical-align: middle !important;
+        color: white; 
+      }
+      .fa-check {
+        color: springgreen;
+      }
+      .fa-times{
+        color: red;
+      }
+      @media (min-width: 991px){
+        table {
+          width: 80% !important;
+          max-width: 80% !important;
+        }
+      }
